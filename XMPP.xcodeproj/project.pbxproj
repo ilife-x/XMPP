@@ -15,6 +15,9 @@
 		11B90C9525E3558E00B02988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B90C9425E3558E00B02988 /* main.m */; };
 		11B90C9F25E3558F00B02988 /* XMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B90C9E25E3558F00B02988 /* XMPPTests.m */; };
 		11B90CAA25E3558F00B02988 /* XMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B90CA925E3558F00B02988 /* XMPPUITests.m */; };
+		189623F31CDD31B64087C93E /* Pods_XMPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92A2FD9EDF9DBF02E1B5C32 /* Pods_XMPPTests.framework */; };
+		7018205E41632655B0E06112 /* Pods_XMPP_XMPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8724C1EFCA575FE3E3A48F64 /* Pods_XMPP_XMPPUITests.framework */; };
+		A2AE46772B0FF387075538AA /* Pods_XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AE082868F292B0DCF3D852 /* Pods_XMPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		11B90CA525E3558F00B02988 /* XMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B90CA925E3558F00B02988 /* XMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPUITests.m; sourceTree = "<group>"; };
 		11B90CAB25E3558F00B02988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D61D40063CD81E9928A0F62 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
+		3E010BF40705013C102EC1CB /* Pods-XMPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPTests.release.xcconfig"; path = "Target Support Files/Pods-XMPPTests/Pods-XMPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		75AE082868F292B0DCF3D852 /* Pods_XMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84545A92D0D123AF418853FF /* Pods-XMPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPTests.debug.xcconfig"; path = "Target Support Files/Pods-XMPPTests/Pods-XMPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8724C1EFCA575FE3E3A48F64 /* Pods_XMPP_XMPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPP_XMPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDA575E1C2DD197C13F1AC5 /* Pods-XMPP-XMPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP-XMPPUITests.debug.xcconfig"; path = "Target Support Files/Pods-XMPP-XMPPUITests/Pods-XMPP-XMPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D81564B87171BE6978549BAE /* Pods-XMPP-XMPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP-XMPPUITests.release.xcconfig"; path = "Target Support Files/Pods-XMPP-XMPPUITests/Pods-XMPP-XMPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D92A2FD9EDF9DBF02E1B5C32 /* Pods_XMPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A45AB996C9748B54873F7 /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AE46772B0FF387075538AA /* Pods_XMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189623F31CDD31B64087C93E /* Pods_XMPPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7018205E41632655B0E06112 /* Pods_XMPP_XMPPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				11B90C9D25E3558F00B02988 /* XMPPTests */,
 				11B90CA825E3558F00B02988 /* XMPPUITests */,
 				11B90C8025E3558C00B02988 /* Products */,
+				A9FB0A97F512B42A38B563B7 /* Pods */,
+				71B390B66A84760745A53C9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,30 @@
 			path = XMPPUITests;
 			sourceTree = "<group>";
 		};
+		71B390B66A84760745A53C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75AE082868F292B0DCF3D852 /* Pods_XMPP.framework */,
+				8724C1EFCA575FE3E3A48F64 /* Pods_XMPP_XMPPUITests.framework */,
+				D92A2FD9EDF9DBF02E1B5C32 /* Pods_XMPPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9FB0A97F512B42A38B563B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D61D40063CD81E9928A0F62 /* Pods-XMPP.debug.xcconfig */,
+				F87A45AB996C9748B54873F7 /* Pods-XMPP.release.xcconfig */,
+				9EDA575E1C2DD197C13F1AC5 /* Pods-XMPP-XMPPUITests.debug.xcconfig */,
+				D81564B87171BE6978549BAE /* Pods-XMPP-XMPPUITests.release.xcconfig */,
+				84545A92D0D123AF418853FF /* Pods-XMPPTests.debug.xcconfig */,
+				3E010BF40705013C102EC1CB /* Pods-XMPPTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11B90CAE25E3558F00B02988 /* Build configuration list for PBXNativeTarget "XMPP" */;
 			buildPhases = (
+				8F1504E8FCC84FB8AAC7731E /* [CP] Check Pods Manifest.lock */,
 				11B90C7B25E3558C00B02988 /* Sources */,
 				11B90C7C25E3558C00B02988 /* Frameworks */,
 				11B90C7D25E3558C00B02988 /* Resources */,
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11B90CB125E3558F00B02988 /* Build configuration list for PBXNativeTarget "XMPPTests" */;
 			buildPhases = (
+				907227F1F88E9D91B0DC0BDC /* [CP] Check Pods Manifest.lock */,
 				11B90C9625E3558F00B02988 /* Sources */,
 				11B90C9725E3558F00B02988 /* Frameworks */,
 				11B90C9825E3558F00B02988 /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11B90CB425E3558F00B02988 /* Build configuration list for PBXNativeTarget "XMPPUITests" */;
 			buildPhases = (
+				4E114224CB7BA7894A14081C /* [CP] Check Pods Manifest.lock */,
 				11B90CA125E3558F00B02988 /* Sources */,
 				11B90CA225E3558F00B02988 /* Frameworks */,
 				11B90CA325E3558F00B02988 /* Resources */,
@@ -255,6 +299,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E114224CB7BA7894A14081C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPP-XMPPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1504E8FCC84FB8AAC7731E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907227F1F88E9D91B0DC0BDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11B90C7B25E3558C00B02988 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		11B90CAF25E3558F00B02988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D61D40063CD81E9928A0F62 /* Pods-XMPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +564,7 @@
 		};
 		11B90CB025E3558F00B02988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87A45AB996C9748B54873F7 /* Pods-XMPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +583,7 @@
 		};
 		11B90CB225E3558F00B02988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84545A92D0D123AF418853FF /* Pods-XMPPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +604,7 @@
 		};
 		11B90CB325E3558F00B02988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E010BF40705013C102EC1CB /* Pods-XMPPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +625,7 @@
 		};
 		11B90CB525E3558F00B02988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDA575E1C2DD197C13F1AC5 /* Pods-XMPP-XMPPUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E75BGBW7FV;
@@ -526,6 +644,7 @@
 		};
 		11B90CB625E3558F00B02988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81564B87171BE6978549BAE /* Pods-XMPP-XMPPUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E75BGBW7FV;
